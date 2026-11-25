@@ -2,18 +2,19 @@
 """Make the AI Judge Feel Nostalgic: A Childhood Memory.
 
 The program writes a single sentence, at most 280 characters, recalling
-a childhood memory: summer evenings when grandmother called us in from
-the street as the rice steamed, the house smelling of rain on hot
-concrete and supper almost ready. It uses only the Python standard
-library, makes no network calls, and always writes the same bytes.
+a childhood memory: summer evenings when grandmother called us in off
+the street, bare feet slapping the steps, as the rice steamed and the
+house smelled of rain on hot concrete and supper almost ready. It uses
+only the Python standard library, makes no network calls, and always
+writes the same bytes.
 """
 
 import os
 
 LINE = (
-    "Every summer evening my grandmother would call us in from the "
-    "street as the rice steamed, and the whole house smelled of rain on "
-    "hot concrete and supper almost ready."
+    "Every summer evening my grandmother called us in off the street, "
+    "bare feet slapping the steps, as the rice steamed and the whole "
+    "house smelled of rain on hot concrete and supper almost ready."
 )
 
 MAX_CHARS = 280
